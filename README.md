@@ -15,17 +15,18 @@ Our results highlight the value of studying a gene’s distribution shape to mod
 
 This week we are going to examine a similar gene expression dataset and test for three different distributions. 
 
-![Screenshot 2023-02-21 162627](https://user-images.githubusercontent.com/47755288/220462238-8101279e-fb39-4e15-83db-9856dd6a3134.png)
 
 
 ## Part 1 - Data formatting
 
-1. Read in the datafile GSE37642-GPL97_series_matrix.EDITED.txt
+1. Read in the datafile GSE37642-GPL97_series_matrix.EDITED.txt __THIS FILE IS IN CANVAS!__ because it is large but it's REAL!
 2. Set the rownames to the column called ID_REF
 3. Remove the column called ID_REF
 
 Now you should have a dataframe where each column is a different individual and each row is a different gene
 
+
+![Screenshot 2023-02-21 162627](https://user-images.githubusercontent.com/47755288/220462238-8101279e-fb39-4e15-83db-9856dd6a3134.png)
 
 ## Part 2 - Testing Gene 200000_s_at in Row 1
 
