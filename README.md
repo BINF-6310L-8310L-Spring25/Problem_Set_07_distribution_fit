@@ -32,9 +32,18 @@ Now you should have a dataframe where each column is a different individual and 
 ## Part 2 - Testing Gene 200000_s_at in Row 1
 
 1. Save the data for the gene in row 1 (aka 200000_s_at) into a new variable
-2. To use the the fitdist package this must be a numeric vector. If you were to try and use just the row data you would get an error like:
+2. Use the function ```unlist()``` on your data for row 1. To use the the fitdist package this must be a numeric vector. If you were to try and use just the row data you would get an error like:
 
 ```
 Error in fitdist(gene, "norm") : 
   data must be a numeric vector of length greater than 1
   ```
+3. Use the ```fitdist``` function to test and save the fit for the normal "nrom" distribution
+4. Use the ```fitdist``` function to test and save the fit for the lognormal "lnrom" distribution
+5. Use the ```fitdist``` function to test and save the fit for the gamma "gamma" distribution
+6. Display the fit of these three models using the ```denscomp``` function
+7. Compare the AIC of the three models using the ```gofstat``` function
+8. Which model has the best fit? 
+
+
+### Part 3 - Testing the first 500 genes for best fit distribution 
