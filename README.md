@@ -17,11 +17,12 @@ This week we are going to examine a similar gene expression dataset and test for
 
 
 
-## Part 1 - Data formatting
+## Part 1 - Data formatting & Packages
 
-1. Read in the datafile GSE37642-GPL97_series_matrix.EDITED.txt __THIS FILE IS IN CANVAS!__ because it is large but it's REAL!
-2. Set the rownames to the column called ID_REF
-3. Remove the column called ID_REF
+1. Install and load the package fitdistrplus https://cran.r-project.org/web/packages/fitdistrplus/index.html 
+2. Read in the datafile GSE37642-GPL97_series_matrix.EDITED.txt __THIS FILE IS IN CANVAS!__ because it is large but it's REAL!
+3. Set the rownames to the column called ID_REF
+4. Remove the column called ID_REF
 
 Now you should have a dataframe where each column is a different individual and each row is a different gene
 
@@ -30,4 +31,10 @@ Now you should have a dataframe where each column is a different individual and 
 
 ## Part 2 - Testing Gene 200000_s_at in Row 1
 
-1. Save the 
+1. Save the data for the gene in row 1 (aka 200000_s_at) into a new variable
+2. To use the the fitdist package this must be a numeric vector. If you were to try and use just the row data you would get an error like:
+
+```
+Error in fitdist(gene, "norm") : 
+  data must be a numeric vector of length greater than 1
+  ```
