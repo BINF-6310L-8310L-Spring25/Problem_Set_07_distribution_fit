@@ -61,3 +61,24 @@ You could save all the AIC results from each cycle of the loop.
 You can access _just_ the AIC results from the gofstat data using ```$aic``` 
 You could also just save the position of the minimum value (1,2, or 3) because you should always be calling gofstat on the same order of models
 
+
+**Note** I ran it on all 20,000+ genes! I got ~15% normal, 82% log normal, and 3% gamma 
+
+### Part 4
+
+de Torrenté et al also tested the Cauchy distribution. You have a hunch that gene 200099_s_at (row 100) might be a good fit for the Cauchy Distribution. 
+
+I fit a Cauchy model to the data and generated the two paramters
+Location: 14.23807615
+Scale: 0.07723034
+
+Now you will need to generate the AIC value for gene 200099_s_at (row 100) fit to the above Cauchy distribution. I have outlined how to do this using a loop below:
+
+1. You will need to create a loop that examines every value for gene 200099_s_at (row 100). 
+2. In the loop, calculate the log likelihood of every value using the ```dcauchy``` function. Look up the function if you need help with the parameters. And don't forget to set the ```log = TRUE```
+3. Sum all the log likelihood values for the gene 
+4. Use the AIC formula to calculate the AIC from the log likelihood
+5. Based on this, does the Cauchy distribution fit better than the normal distribution?
+
+
+
