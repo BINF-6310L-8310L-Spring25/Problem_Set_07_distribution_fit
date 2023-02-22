@@ -57,3 +57,7 @@ The manuscript above found only 50% of the genes had normal distribution. We wil
 
 __Tips__
 
+You could save all the AIC results from each cycle of the loop. 
+You can access _just_ the AIC results from the gofstat data using ```$aic``` 
+You could also just save the position of the minimum value (1,2, or 3) because you should always be calling gofstat on the same order of models
+
