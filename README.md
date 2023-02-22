@@ -47,3 +47,13 @@ Error in fitdist(gene, "norm") :
 
 
 ### Part 3 - Testing the first 500 genes for best fit distribution 
+
+The manuscript above found only 50% of the genes had normal distribution. We will use the first 500 genes to test what percent of genes has a normal distribution. 
+
+1. Create a loop that will analyze the first 500 rows of the data (aka first 500 genes)
+2. For each row(gene) test the fit to the 1) Normal distribution 2) Lognormal Distribution and 3) Gamma distribution 
+3. Find the best fitting model and save that
+4. Once you have gone through the 500 genes, calculate the percent that have each model 
+
+__Tips__
+
