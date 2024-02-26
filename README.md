@@ -29,7 +29,7 @@ Now you should have a dataframe where each column is a different individual and 
 
 ![Screenshot 2023-02-21 162627](https://user-images.githubusercontent.com/47755288/220462238-8101279e-fb39-4e15-83db-9856dd6a3134.png)
 
-$nbsp;
+&nbsp;
 
 ## Part 2 - Testing Gene 200000_s_at in Row 1
 
@@ -69,8 +69,8 @@ You could also just save the position of the minimum value (1,2, or 3) because y
 ## Question 2
 Report the percent of the 500 genes that fit the normal, log-normal, and gamma distributions.
 
-$nbsp;
-$nbsp;
+&nbsp;
+&nbsp;
 
 ### Part 4
 
