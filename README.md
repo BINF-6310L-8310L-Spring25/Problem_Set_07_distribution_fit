@@ -49,8 +49,8 @@ Error in fitdist(gene, "norm") :
 ## Question 1
 Which model has the best fit?
 
-
-
+&nbsp;
+&nbsp;
 ### Part 3 - Testing the first 500 genes for best fit distribution 
 
 The manuscript above found only 50% of the genes had normal distribution. We will use the first 500 genes to test what percent of genes has a normal distribution. 
