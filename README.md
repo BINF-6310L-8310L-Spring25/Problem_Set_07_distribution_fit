@@ -29,6 +29,8 @@ Now you should have a dataframe where each column is a different individual and 
 
 ![Screenshot 2023-02-21 162627](https://user-images.githubusercontent.com/47755288/220462238-8101279e-fb39-4e15-83db-9856dd6a3134.png)
 
+$nbsp
+
 ## Part 2 - Testing Gene 200000_s_at in Row 1
 
 1. Save the data for the gene in row 1 (aka 200000_s_at) into a new variable
@@ -43,7 +45,10 @@ Error in fitdist(gene, "norm") :
 5. Use the ```fitdist``` function to test and save the fit for the gamma "gamma" distribution
 6. Display the fit of these three models using the ```denscomp``` function
 7. Compare the AIC of the three models using the ```gofstat``` function
-8. Which model has the best fit? 
+
+## Question 1
+Which model has the best fit?
+
 
 
 ### Part 3 - Testing the first 500 genes for best fit distribution 
