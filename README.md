@@ -1,6 +1,6 @@
-# Problem_Set_8
+# Problem_Set_7
 
-Problem set 5 is inspired by __The shape of gene expression distributions matter: how incorporating distribution shape improves the interpretation of cancer transcriptomic data__ written by de Torrenté et al in 202
+Problem set 7 is inspired by __The shape of gene expression distributions matter: how incorporating distribution shape improves the interpretation of cancer transcriptomic data__ written by de Torrenté et al in 2022
 
 I will include the abstract from the paper below. _Please read this summary_ 
 
@@ -76,7 +76,7 @@ Report the percent of the 500 genes that fit the normal, log-normal, and gamma d
 
 de Torrenté et al also tested the Cauchy distribution. You have a hunch that gene 200099_s_at (row 100) might be a good fit for the Cauchy Distribution. 
 
-I fit a Cauchy model to the data and generated the two paramters
+I fit a Cauchy model to the data and generated the two parameters
 Location: 14.23807615
 Scale: 0.07723034
 
